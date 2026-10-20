@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rushermc-models",
+  "version": "${version}",
+  "name": "RusherMC Models",
+  "description": "650 custom models for RusherMC",
+  "authors": ["ParkDawg"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rushermc-models/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.rushermc.models.RusherModels"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

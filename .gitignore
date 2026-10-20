@@ -1,0 +1,10 @@
+build/
+.gradle/
+.idea/
+*.iml
+out/
+bin/
+
+# Local Minecraft run folders (logs, options, usernames)
+run/
+runs/
